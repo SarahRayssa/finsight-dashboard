@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jimp": "^1.6.0",
+    "multer": "^2.0.2",
+    "openai": "^6.8.1",
+    "prisma": "^6.19.0",
+    "tesseract.js": "^6.0.1"
+  }
+}
